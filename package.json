@@ -1,0 +1,19 @@
+{
+  "name": "arcticjs-logo-printer",
+  "description": "prints the ArcticJS logo in ASCII",
+  "version": "0.0.0",
+  "bin": {
+    "arcticjs-logo-printer": "index.js"
+  },
+  "repository": {
+    "url": "git://github.com/noffle/polar-logo-printer.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "chunk-stream": "0.0.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
